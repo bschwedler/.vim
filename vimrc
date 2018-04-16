@@ -16,9 +16,8 @@ set wrap
 filetype plugin indent on
 syntax enable            "Enable syntax hl
 
-let g:solarized_termcolors=256
-set t_Co=256
 set background=dark
+let g:solarized_termtrans=1
 colorscheme solarized
 
 let g:airline_theme='solarized'
